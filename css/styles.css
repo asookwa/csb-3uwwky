@@ -1,0 +1,180 @@
+body {
+  background-color: #5582c6;
+  margin: 0;
+  font-family: Roboto, serif;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 1.6;
+  color: white;
+}
+
+a {
+  color: #e2e55f;
+}
+a:hover {
+  color: blue;
+}
+/* Header containing movie wallpaper */
+#header {
+  background-image: url("../images/toystory4_wallpaper.jpg");
+  margin: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 650px;
+  position: relative;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  min-width: 1200px;
+  max-width: 1400px;
+}
+
+#poster img {
+  height: 500px;
+  width: 340px;
+  position: absolute;
+  top: 400px;
+  left: 190px;
+}
+
+#title h1 {
+  width: 400px;
+  color: #960001;
+  margin-left: 400px;
+  text-align: center;
+  font-family: "Cabin";
+  font-weight: 600;
+  font-size: 70px;
+  background-color: whitesmoke;
+  opacity: 0.8;
+}
+
+#box-1 {
+  margin-top: 150px;
+}
+
+#box-1 h2 {
+  text-align: left;
+  font-family: Cabin;
+  font: weight 600;
+  font-size: 36px;
+  color: #960001;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #96c25f;
+}
+
+#box-2 {
+  margin-top: 50px;
+}
+
+#box-2 h2 {
+  text-align: left;
+  font-family: Cabin;
+  font-weight: 600;
+  font-size: 36px;
+  color: #960001;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #96c25f;
+}
+#block-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 600px;
+  margin-right: 80px;
+  padding: 5px;
+}
+.block p {
+  color: white;
+}
+
+.block img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0px 0px 15px black;
+}
+.block h3 {
+  text-align: left;
+  font-family: Cabin;
+  font-weight: 600;
+  font-size: 24px;
+  color: #960001;
+}
+
+#end-quote {
+  background-color: #e2e55f;
+  height: 70px;
+  border-top: 2px solid green;
+  padding: 5px 10px;
+}
+#end-quote p {
+  font-family: Cabin;
+  font-size: 17px;
+  color: #960001;
+  padding-left: 10%;
+}
+
+#box-3 h2 {
+  text-align: left;
+  font-family: Cabin;
+  font-weight: 600;
+  font-size: 36px;
+  color: #960001;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #96c25f;
+  margin-top: 50px;
+}
+
+#comments-box {
+  height: 200px;
+  width: 400px;
+}
+
+#label {
+  font-family: "Roboto";
+}
+
+#text {
+  width: 500px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+#button {
+  background-color: #79519f;
+  width: 500px;
+  height: 50px;
+  font-family: "Cabin";
+  font-size: 24px;
+  color: white;
+  margin-top: 20px;
+  transition-duration: 0.4ms;
+}
+
+#button:hover {
+  background-color: orchid;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#content {
+  width: 500px;
+  height: 50px;
+}
+
+#rating {
+  margin-top: 20px;
+  color: white;
+  font-family: "Roboto";
+  font-size: 20px;
+  width: 800px;
+  height: 150px;
+}
